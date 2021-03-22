@@ -1,0 +1,50 @@
+.box{
+    background-color: white;
+    text-shadow: 1em;
+    border-bottom-left-radius: .5em;
+    border-radius: .2em;
+    width: 200px;
+    height:30px;
+    text-align: center;
+    margin-top: 1em;
+    margin-left: 30px;
+    color: rgb(96, 180, 206);
+    position: relative;
+}
+.box:hover{
+    height:50px;
+}
+.shift{
+    position: absolute;
+    right: 15px;
+    font-size: medium;
+    cursor: pointer;
+
+}
+.delete{
+    font-size: 16px;
+    margin: 0 5px;
+    color: black;
+}
+.input{
+background: transparent;
+color:rgb(96, 180, 206) ;
+border: none;
+}
+.input:focus{
+   outline: none;
+}
+.input:hover{
+    font-size: large;
+    font-weight: bolder;
+    color: rgb(88, 88, 94);
+    
+}
+.todo-container{
+    height: 50vh;
+    /* width: 100vw; */
+    /* display: flex; */
+    /* flex-wrap: wrap; */
+    overflow: scroll;
+    /* flex-direction: column; */
+}
