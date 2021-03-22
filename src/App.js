@@ -76,7 +76,7 @@ class App extends React.Component {
      return ele
     })
     this.setState({
-      item: newstst
+      item: stat
     })
   }
   render() {
