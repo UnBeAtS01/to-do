@@ -69,10 +69,11 @@ class App extends React.Component {
   }
   updatevalue = (text, key) => {
     const newstst = this.state.item;
-    newstst.map(ele => {
+   const stat= newstst.map(ele => {
       if (ele.key === key) {
         ele.text = text;
       }
+     return ele
     })
     this.setState({
       item: newstst
