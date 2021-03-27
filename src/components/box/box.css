@@ -10,6 +10,8 @@
     margin-left: 30px;
     color: rgb(96, 180, 206);
     position: relative;
+    display:flex;
+    justify-content: space-between;
 }
 .box:hover{
     height:50px;
@@ -26,12 +28,16 @@
     margin: 0 5px;
     color: black;
 }
+.box-first{
+    width:80%;
+    height:100%;
 .input{
 background: transparent;
 color:rgb(96, 180, 206) ;
 border: none;
     display:flex;
     flex-wrap:wrap;
+    
 }
 .input:focus{
    outline: none;
