@@ -30,6 +30,8 @@
 background: transparent;
 color:rgb(96, 180, 206) ;
 border: none;
+    display:flex;
+    flex-wrap:wrap;
 }
 .input:focus{
    outline: none;
