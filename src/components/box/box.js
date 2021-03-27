@@ -6,7 +6,9 @@ function BOX({ remove, item, updatevalue }) {
     const ele = item.map(e => {
         return (<div>
             <div className='box' key={e.key}>
-                <input className='input' key={e.key} value={e.text} onChange={(k) => updatevalue(k.target.value, e.key)} />
+                <div className='box-first'>
+                 <input className='input' key={e.key} value={e.text} onChange={(k) => updatevalue(k.target.value, e.key)} />
+                </div>
                 <span className='shift'>
                     <FontAwesomeIcon className='delete' icon='trash' onClick={() => remove(e.key)} />
                 </span>
